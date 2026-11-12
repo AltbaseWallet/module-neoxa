@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "abiVersion": 1,
+  "id": "neoxa",
+  "name": "Neoxa",
+  "ticker": "NEOX",
+  "version": "0.1.9",
+  "kind": "utxo",
+  "networkId": "neoxa-mainnet",
+  "decimals": 8,
+  "capabilities": [],
+  "runtime": {
+    "type": "legacy"
+  },
+  "nativeRoute": "neoxa-wallet",
+  "coin": {
+    "id": "neoxa",
+    "name": "Neoxa",
+    "ticker": "NEOX",
+    "networkId": "neoxa-mainnet",
+    "supportsMemo": false,
+    "satsPerCoin": 100000000,
+    "utxoReadProfile": "blockbook",
+    "cryptoParams": {
+      "p2pkhPrefix": 38,
+      "p2shPrefix": 122,
+      "wifPrefix": 112,
+      "derivationPath": "m/44'/1668'/0'/0/0"
+    }
+  },
+  "icon": "icon.png"
+}
